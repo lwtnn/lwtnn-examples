@@ -1,5 +1,10 @@
 # AnalysisBase type example
 
+## General notes
+
+This is an example of a basic neural network. It is a feed forward type NN with 6 inputs variables and a single output.
+
+## Running the code
 Setup `AnalysisBaseExternals`:
 
 ```
