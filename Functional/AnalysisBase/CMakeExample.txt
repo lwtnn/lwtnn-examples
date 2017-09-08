@@ -1,0 +1,11 @@
+cmake_minimum_required( VERSION 3.2 )
+
+project( LwtnnTest )
+
+find_package( AnalysisBaseExternals REQUIRED )
+find_package( lwtnn REQUIRED )
+
+add_executable( testExec testExec.cxx )
+target_include_directories( testExec PRIVATE ${LWTNN_INCLUDE_DIRS} )
+target_link_libraries( testExec ${LWTNN_LIBRARIES} )
+
