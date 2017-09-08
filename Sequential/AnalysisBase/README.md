@@ -17,7 +17,7 @@ cp CMakeExample.txt CMakeLists.txt
 mkdir build ; cd build
 cmake ../
 make
-testExec
+./testExec
 ```
 
 Output should be:
